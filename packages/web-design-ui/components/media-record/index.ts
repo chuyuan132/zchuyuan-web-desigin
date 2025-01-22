@@ -1,5 +1,5 @@
 import { withInstall } from '../../utils';
-import mediaReconrd from './src/index.vue';
+import mediaReconrd from './src/media-record.vue';
 
 export const MediaRecord = withInstall(mediaReconrd);
 export * from './src/config';

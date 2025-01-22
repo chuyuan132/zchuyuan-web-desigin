@@ -13,5 +13,9 @@ export default series(cleanDist, parallel(buildWebDesignUI, buildType), () =>
       from: resolve(pkgPath, 'web-design-ui/global.d.ts'),
       to: resolve(outPath, `global.d.ts`),
     },
+    {
+      from: resolve(pkgPath, 'web-design-ui/README.md'),
+      to: resolve(outPath, `README.md`),
+    },
   ]),
 );

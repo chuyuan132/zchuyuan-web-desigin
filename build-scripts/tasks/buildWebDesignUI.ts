@@ -29,7 +29,7 @@ const writeConfig: OutputOptions[] = [
     format: 'esm',
     dir: resolve(outPath, 'es'),
     preserveModules: true,
-    entryFileNames: `[name].js`,
+    entryFileNames: `[name].mjs`,
   },
   {
     format: 'cjs',
