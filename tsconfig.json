@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "types": ["node"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "web-design": ["./dist"],
+      "web-design-css": ["./dist"]
+    }
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["packages/**/*", "build-scripts/**/*", "play/**/*", "**/*.d.ts"],
+  "exclude": ["**/node_modules", "**/_tests_", "dist/**"]
+}

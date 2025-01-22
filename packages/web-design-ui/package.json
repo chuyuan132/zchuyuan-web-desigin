@@ -1,0 +1,32 @@
+{
+  "name": "zchuyuan-design-ui",
+  "version": "1.0.0",
+  "description": "vue3 + antd的web组件库",
+  "keywords": [
+    "vue3",
+    "ant design vue",
+    "components"
+  ],
+  "main": "./lib/index.js",
+  "module": "./es/index.mjs",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/xxxx/xxxx.git"
+  },
+  "license": "ISC",
+  "types": "./es/index.d.ts",
+  "author": "zhangchuyuan",
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "exports": {
+    ".": {
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js",
+      "types": "./es/index.d.ts"
+    },
+    "./client": {
+      "types": "./global.d.ts"
+    }
+  }
+}
